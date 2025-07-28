@@ -1,0 +1,116 @@
+body {
+    font-family: sans-serif;
+    background: #f7f7f7;
+    padding: 30px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    max-width: 500px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 10px;
+    font-size: 1rem;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+li.checked {
+    text-decoration: line-through;
+    color: gray;
+}
+
+li > div {
+    display: flex;
+    gap: 8px;
+}
+
+li button {
+    padding: 4px 8px;
+    border: none;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+li button:hover {
+    background-color: #e0e0e0;
+}
+
+.edit-box {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+}
+
+.edit-box input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    height: 38px;
+}
+
+.edit-box button {
+    padding: 8px 12px;
+    height: 38px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.edit-box button:hover {
+    background-color: #ccc;
+}
+
+#search-input {
+    max-width: 400px;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
