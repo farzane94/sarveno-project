@@ -51,7 +51,8 @@ updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ````
 
 
-✨ Features
+## ✨ Features
+
 -Add new items
 -Edit existing items
 -Delete items
