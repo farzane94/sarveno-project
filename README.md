@@ -53,12 +53,12 @@ updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 
 ## ✨ Features
 
--Add new items
--Edit existing items
--Delete items
--Mark items as completed
--RESTful API integration
--Simple and responsive UI
+- Add new items
+- Edit existing items
+- Delete items
+- Mark items as completed
+- RESTful API integration
+- Simple and responsive UI
 
 ## 📬 Contact
 
