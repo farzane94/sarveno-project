@@ -25,17 +25,7 @@ git clone https://github.com/farzane94/sarveno-project.git
 cd sarveno-project
 ```
 
-### 2. Run the PHP Server
-
-```bash
-php -S localhost:8000 -t public
-```
-### Then open this URL in your browser:
-
-🌐 http://localhost:8000/index.html
-
-
-### 3. Create the Database
+### 2. Create the Database
 ````
 CREATE DATABASE shopping_list;
 USE shopping_list;
@@ -49,6 +39,15 @@ updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 
 ````
+
+### 3. Run the PHP Server
+
+```bash
+php -S localhost:8000 -t public
+```
+### Then open this URL in your browser:
+
+🌐 http://localhost:8000/index.html
 
 
 ## ✨ Features
