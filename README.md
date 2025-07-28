@@ -1,4 +1,4 @@
-# 🗂 Shopping List Project using PHP Native
+# Shopping List Project using PHP Native
 
 A simple shopping list application built using **PHP (without any frameworks)**, **MySQL**, and **Vanilla JavaScript**.
 
